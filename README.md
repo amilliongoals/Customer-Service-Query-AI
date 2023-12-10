@@ -2,6 +2,23 @@
 
 Returns are a tricky business, the goal of this project is to leverage AI to create a chatbot that in theory could be used by a customer service rep to assist them in making decisions. 
 
+
+
+Steps Completed 
+1)Acquired data sets
+2)Established coding environment in Google Colab, shifting from Kaggle to experience new tools and prepare for practice with Google Gemini and rest/gain experience with their new co-pilot coming out
+3)Connected with OpenAI key - tested connection in notebook 
+4)Working on cleaning text file 
+    -Determined effective normalization and cleaning procedures e.g
+, keeping capitalization, removing html, removing specific symbols.
+
+Currently: deciding on tokenization methodology.
+
+
+
+
+
+
 To-Do-List 
 1) Train a chatbot around a set of return policy data
 2) Have it take the role of Customer Service to advise the policy given a scenario prompt
