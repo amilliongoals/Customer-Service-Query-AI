@@ -5,6 +5,9 @@ Returns are a tricky business, the goal of this project is to leverage AI to cre
 Files in Repo:
 **For any to work, an up-to-date openai key is required, all files are pulled directly from url**
 
+-Raw Kaggle Start Non Functional.ipynb
+      -The work that was started on Kaggle, transferred environments to Google Cloud to test specific integrations with github. 
+      
 - Raw Customer-Service-Query-AI
       -A working query bot with prompts based on embeddings pulled from return policy articles.
       -The notebook with my thoughts, learnings, notes, exploration, errors, and testing
