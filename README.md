@@ -21,12 +21,19 @@ Files in Repo:
 
 
 Steps Completed 
+
 1)Acquired data sets
+
 2)Established coding environment in Google Colab, shifting from Kaggle to experience new tools and prepare for practice with Google Gemini and rest/gain experience with their new co-pilot coming out
-3)Connected with OpenAI key - tested connection in notebook 
+
+3)Connected with OpenAI key - tested connection in a notebook 
+
 4)Working on cleaning text file 
+
     -Determined effective normalization and cleaning procedures e.g , keeping capitalization, removing html, removing specific symbols.
+    
 5) Train a chatbot around a set of return policy data
+   
 6) Have it take the role of Customer Service to advise the policy given a scenario prompt
 
 **Pivot Point** 
