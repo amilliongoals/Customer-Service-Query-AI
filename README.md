@@ -3,8 +3,10 @@
 Returns are a tricky business, the goal of this project is to leverage AI to create a chatbot that in theory could be used by a customer service rep to assist them in making decisions. 
 In a real-world use case, if calls were recorded they could be encoded speech-to-text into the text being directly fed into the chatbot as a query, and when the result is bad per CS rep, that data can be sent for further training.  
 
+====================================================
 
-Files in Repo:
+Files in Repository:
+
 **For any to work, an up-to-date openai key is required, all files are pulled directly from url**
 
 - Raw Kaggle Start Non Functional.ipynb
@@ -19,30 +21,37 @@ Files in Repo:
      -A working query bot with prompts based on embeddings pulled from return policy articles.
      -Any excess code, notes, links, and comments were removed and formatting corrected 
 
+====================================================
 
 Steps Completed 
 
-1)Acquired data sets
+1) Acquired data sets
 
-2)Established coding environment in Google Colab, shifting from Kaggle to experience new tools and prepare for practice with Google Gemini and rest/gain experience with their new co-pilot coming out
+2) Established coding environment in Google Colab, shifting from Kaggle to experience new tools and prepare for practice with Google Gemini and rest/gain experience with their new co-pilot coming out
 
-3)Connected with OpenAI key - tested connection in a notebook 
+3) Connected with OpenAI key - tested connection in a notebook 
 
-4)Working on cleaning text file 
+4) Working on cleaning text file 
 
-    -Determined effective normalization and cleaning procedures e.g , keeping capitalization, removing html, removing specific symbols.
+5) Determined effective normalization and cleaning procedures e.g , keeping capitalization, removing html, removing specific symbols.
     
-5) Train a chatbot around a set of return policy data
+6) Train a chatbot around a set of return policy data
    
-6) Have it take the role of Customer Service to advise the policy given a scenario prompt
+7) Have it take the role of Customer Service to advise the policy given a scenario prompt
+
+   
+====================================================
 
 **Pivot Point** 
+
 To this point, what has been done has been using embeddings which is depreciated in the most recent openai. 
 As well, there are cheaper query alternatives now available and Langchain is now used for similar queries.
 My next step is to re-create the customer service query agent with Langchain via openai. 
 
+====================================================
 
 To-Do-List 
+
 1) Recreate what has been done using embeddings with Langchain & openai 4.0 
 2) Test a variety of scenarios, and place them on a table (prompt & response)
 3) For incorrect or poor responses, improve them to be the desired result or remove
