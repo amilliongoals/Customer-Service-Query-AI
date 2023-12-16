@@ -30,6 +30,8 @@ In a real-world use case, if calls were recorded they could be encoded speech-to
      - Any excess code, notes, links, and comments were removed and formatting corrected
   
 - <h5> Customer_Service_Langchain_openai_4_0 _(Work in progress)_</h5> 
+
+     - Unlike the previous files, this will be worked on quickly to deployment using existing tests and examples predominately
   
      - Re-making the query bot using the most up-to-date libraries, this will be the one I focus on building out applications to support & fine-tune
   
