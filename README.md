@@ -13,7 +13,7 @@ In a real-world use case, if calls were recorded they could be encoded speech-to
   
      - The work that was started on Kaggle, transferred environments to Google Cloud to test specific integrations with github. 
       
--<h5> Raw Customer-Service-Query-AI</h5>
+- <h5>Raw Customer-Service-Query-AI</h5>
   
      - A working query bot with prompts based on embeddings pulled from return policy articles.
 
