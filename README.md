@@ -29,7 +29,7 @@ Files in Repository:
 
      - Any excess code, notes, links, and comments were removed and formatting corrected
   
-- Customer_Service_Langchain_openai_4_0 _Work in progress_
+- Customer_Service_Langchain_openai_4_0 _(Work in progress)_
   
      - Re-making the query bot using the most up-to-date libraries, this will be the one I focus on building out applications to support & fine-tune
   
