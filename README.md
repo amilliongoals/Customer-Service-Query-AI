@@ -19,7 +19,11 @@ Files in Repository:
 
 - Cleaned Customer-Service-Query-AI
      -A working query bot with prompts based on embeddings pulled from return policy articles.
-     -Any excess code, notes, links, and comments were removed and formatting corrected 
+     -Any excess code, notes, links, and comments were removed and formatting corrected
+  
+- Customer_Service_Langchain_openai_4_0
+      -Work in progress: Re-making the querybot using the most up-to-date libraries, this will be the one I focus on building out applications to support & fine-tune.
+      -Strong development consideration: I used most of my tokens in initial training, If this is a purpose-driven bot, I should think about the development of the text I'm feeding it to be more efficient. I can scrape and train, but with written text, I can be more token efficient & have room for tokens in embedding limitations for the fine-tuning process using prompt - solutions from 'gaps' in answers in the inevitable feedback loop when testing. 
 
 ====================================================
 
