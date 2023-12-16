@@ -10,19 +10,29 @@ Files in Repository:
 **For any to work, an up-to-date openai key is required, all files are pulled directly from url**
 
 - Raw Kaggle Start Non Functional.ipynb
+  
       -The work that was started on Kaggle, transferred environments to Google Cloud to test specific integrations with github. 
       
 - Raw Customer-Service-Query-AI
+  
       -A working query bot with prompts based on embeddings pulled from return policy articles.
+
       -The notebook with my thoughts, learnings, notes, exploration, errors, and testing
+
       -The file is NOT well organized but breaks down crucial points in text cleaning, tokenization, and the core functions in interacting with an LLM and private data set 
 
 - Cleaned Customer-Service-Query-AI
+  
      -A working query bot with prompts based on embeddings pulled from return policy articles.
+
+     -Importing openai key in secret location (top) of code should be only requirement for this code to load in any IDE 
+
      -Any excess code, notes, links, and comments were removed and formatting corrected
   
-- Customer_Service_Langchain_openai_4_0
-      -Work in progress: Re-making the querybot using the most up-to-date libraries, this will be the one I focus on building out applications to support & fine-tune.
+- Customer_Service_Langchain_openai_4_0 _Work in progress_
+  
+      -Re-making the query bot using the most up-to-date libraries, this will be the one I focus on building out applications to support & fine-tune
+  
       -Strong development consideration: I used most of my tokens in initial training, If this is a purpose-driven bot, I should think about the development of the text I'm feeding it to be more efficient. I can scrape and train, but with written text, I can be more token efficient & have room for tokens in embedding limitations for the fine-tuning process using prompt - solutions from 'gaps' in answers in the inevitable feedback loop when testing. 
 
 ====================================================
