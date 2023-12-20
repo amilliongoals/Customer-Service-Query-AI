@@ -62,17 +62,6 @@ In a real-world use case, if calls were recorded they could be encoded speech-to
 
 To this point, what has been done has been using embeddings which is depreciated in the most recent openai. 
 As well, there are cheaper query alternatives now available and Langchain is now used for similar queries.
-My next step is to re-create the customer service query agent with Langchain via openai. 
-
-====================================================
-
-<h4>To-Do-List </h4>
-
-1) Recreate what has been done using embeddings with Langchain & openai 4.0 
-2) Test a variety of scenarios, and place them on a table (prompt & response)
-3) For incorrect or poor responses, improve them to be the desired result or remove
-4) Utilize that new table for reinforcement learning/fine-tuning
-5) Repeat until satisfied with the results
-6) Create an application that includes a feature of 'Was this helpful?' that is stored with the query and response as data to support large-scale reinforcement.
+My next step will to do a project that involve langchain & work on an extension to quickly gather and tokenize data while browsing (chrome extension)
   
 
